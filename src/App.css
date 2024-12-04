@@ -1,0 +1,74 @@
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Стили для контейнера резюме */
+.resume {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Заголовок резюме */
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Общие стили для секций */
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+/* Стили для списков */
+.section ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 5px;
+}
+
+/* Персональная информация */
+.personal-info p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+/* Примечание */
+.section p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Мобильная адаптивность */
+@media (max-width: 600px) {
+  .resume {
+      padding: 10px;
+  }
+
+  .section h2 {
+      font-size: 1.2em;
+  }
+}
